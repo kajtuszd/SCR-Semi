@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  factory-service:
+    build: ./code
+    volumes:
+      - ./code:/code
+    ports:
+      - 4444:90

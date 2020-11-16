@@ -6,4 +6,4 @@ services:
     volumes:
       - ./code:/code
     ports:
-      - 4444:90
+      - 80:80
